@@ -118,8 +118,8 @@ def check_tomcat(data):
 if __name__ == "__main__":
     print(logo)
     if (len(sys.argv)) < 2:
-        print('Useage: python3 crack_tomcat.py -u url')
-        print('Useage: python3 crack_tomcat.py -r url.txt')
+        print('Useage: python3 CrackTomcat.py -u url')
+        print('Useage: python3 CrackTomcat.py -r url.txt')
     else:
         parser = argparse.ArgumentParser()
         parser.add_argument('-u', help="url -> example http://127.0.0.1", type=str, dest='check_url')
